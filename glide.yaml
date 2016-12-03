@@ -1,0 +1,12 @@
+package: github.com/treeptik/dockit
+import:
+- package: github.com/docker/engine-api
+  subpackages:
+  - client
+  - types
+- package: github.com/spf13/cobra
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: github.com/deckarep/gosx-notifier
+- package: github.com/jroimartin/gocui
