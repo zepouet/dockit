@@ -3,7 +3,6 @@ package cmd
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/treeptik/dockit/gozer"
 )
 
 func InitGozer() *cobra.Command {
@@ -16,7 +15,6 @@ func InitGozer() *cobra.Command {
 			fmt.Print("Gozer is cleaning " + args[0])
 			switch args[0] {
 			case "volumes":
-				gozer.CleanVolumes();
 			}
 		},
 	}
