@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/spf13/cobra"
-	"github.com/treeptik/dockit/cmd"
-	"github.com/treeptik/dockit/docker"
+	"github.com/zepouet/dockit/cmd"
+	"github.com/zepouet/dockit/docker"
 )
 
 func main() {

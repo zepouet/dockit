@@ -1,4 +1,4 @@
-# dockit [![GoDoc](https://godoc.org/github.com/treeptik/docker-watchdog?status.svg)](https://godoc.org/github.com/treeptik/docker-watchdog) [![Build Status](https://travis-ci.org/treeptik/docker-monitor.svg)](https://travis-ci.org/treeptik/docker-monitor)
+# dockit [![GoDoc](https://godoc.org/github.com/zepouet/dockit?status.svg)](https://godoc.org/github.com/treeptik/docker-watchdog) [![Build Status](https://travis-ci.org/treeptik/docker-monitor.svg)](https://travis-ci.org/treeptik/docker-monitor)
 dockit is a toolkit with many useful commands to help devops people when using [Docker](http://www.docker.com) containers and images.
 
 ## Type implemented
@@ -22,7 +22,7 @@ dockit is a toolkit with many useful commands to help devops people when using [
 
 ### Download & Compile
 ```
-go get github.com/treeptik/dockit
+go get github.com/zepouet/dockit
 glide install
 ./install.sh
 ```

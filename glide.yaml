@@ -1,4 +1,4 @@
-package: github.com/treeptik/dockit
+package: github.com/zepouet/dockit
 import:
 - package: github.com/docker/engine-api
   subpackages:
