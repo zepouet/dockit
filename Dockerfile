@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1
 
 MAINTAINER Nicolas MULLER <n.muller@treeptik.fr>
 
